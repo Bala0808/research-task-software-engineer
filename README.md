@@ -1,5 +1,3 @@
-# README
-
 ## Project Title
 ### Screening Task: Semantic NLP Filtering for Deep Learning Papers in Virology/Epidemiology
 
