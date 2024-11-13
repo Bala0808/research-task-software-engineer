@@ -55,7 +55,7 @@ Keyword filtering often captures a wide range of irrelevant records, especially 
 
 The final dataset generated after applying semantic filtering, method classification, and specific method extraction contains **154 research papers**. The steps and filters applied have significantly refined the dataset to focus on high-relevance research, capturing deep learning applications within virology and epidemiology. Here are the key characteristics of this final dataset:
 
-### To retrieve a broader range of relevant papers, adjusting the similarity thresholds can yield additional entries with slightly lower similarity scores, allowing for a more inclusive selection based on research needs.
+### To retrieve a broader range of relevant papers, lowering the similarity thresholds can capture additional entries with slightly lower similarity scores, enabling a more inclusive selection based on specific research needs. This involves adjusting the virology/epidemiology similarity threshold (currently 0.90) and the deep learning similarity threshold (currently 0.80) as needed..
 
 1. **Total Records**: 154 entries, each with a non-empty abstract and content relevant to virology/epidemiology and deep learning techniques.
 2. **Key Columns**:
