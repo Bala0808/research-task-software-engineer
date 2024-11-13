@@ -1,3 +1,5 @@
+# README
+
 ## Project Title
 ### Screening Task: Semantic NLP Filtering for Deep Learning Papers in Virology/Epidemiology
 
@@ -53,6 +55,8 @@ Keyword filtering often captures a wide range of irrelevant records, especially 
 
 The final dataset generated after applying semantic filtering, method classification, and specific method extraction contains **154 research papers**. The steps and filters applied have significantly refined the dataset to focus on high-relevance research, capturing deep learning applications within virology and epidemiology. Here are the key characteristics of this final dataset:
 
+### To retrieve a broader range of relevant papers, adjusting the similarity thresholds can yield additional entries with slightly lower similarity scores, allowing for a more inclusive selection based on research needs.
+
 1. **Total Records**: 154 entries, each with a non-empty abstract and content relevant to virology/epidemiology and deep learning techniques.
 2. **Key Columns**:
    - **Virology_Similarity**: Cosine similarity score indicating each paper's relevance to virology/epidemiology topics.
@@ -92,7 +96,6 @@ The final dataset generated after applying semantic filtering, method classifica
 
 The final dataset, stored in `deep_learning_virology_methods_extracted.csv`, provides a well-curated collection of papers that focus specifically on relevant deep learning applications in virology and epidemiology, optimized for downstream research and analysis.
 
-### To retrieve a broader range of relevant papers, adjusting the similarity thresholds can yield additional entries with slightly lower similarity scores, allowing for a more inclusive selection based on research needs.
 
 ## Final Note
 This semantic NLP-based screening process significantly enhances the relevance and quality of the dataset compared to simple keyword-based filtering, providing a robust solution to researchers and analysts focusing on deep learning applications in virology and epidemiology.
